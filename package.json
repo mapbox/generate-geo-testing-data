@@ -1,0 +1,24 @@
+{
+  "name": "generate-geo-testing-data",
+  "version": "0.0.0",
+  "description": "use a geonames extract to generate testing geocodes, tiles, and bounding boxes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mapbox/generate-geo-testing-data.git"
+  },
+  "keywords": [
+    "geo",
+    "testing",
+    "data",
+    "generate"
+  ],
+  "author": "Young Hahn",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/mapbox/generate-geo-testing-data/issues"
+  }
+}
