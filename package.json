@@ -20,5 +20,8 @@
   "license": "BSD",
   "bugs": {
     "url": "https://github.com/mapbox/generate-geo-testing-data/issues"
+  },
+  "dependencies": {
+    "log-reader": "0.0.0"
   }
 }
