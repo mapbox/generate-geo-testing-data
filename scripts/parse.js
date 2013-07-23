@@ -5,7 +5,7 @@ function parseLine(line, i) {
     return {
         group: cols[0],
         geonameid: cols[1],
-        box: [
+        bbox: [
             parseFloat(cols[3]),
             parseFloat(cols[4]),
             parseFloat(cols[5]),

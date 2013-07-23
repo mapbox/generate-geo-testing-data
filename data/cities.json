@@ -2,7 +2,7 @@
   {
     "group": "Africa",
     "geonameid": "360630",
-    "box": [
+    "bbox": [
       30.897,
       29.761,
       31.71,
@@ -14,7 +14,7 @@
   {
     "group": "Africa",
     "geonameid": "993800",
-    "box": [
+    "bbox": [
       27.537,
       -26.563,
       28.542,
@@ -26,7 +26,7 @@
   {
     "group": "Africa",
     "geonameid": "2332459",
-    "box": [
+    "bbox": [
       2.889,
       6.32,
       3.834,
@@ -38,7 +38,7 @@
   {
     "group": "Africa",
     "geonameid": "184745",
-    "box": [
+    "bbox": [
       36.582,
       -1.488,
       37.056,
@@ -50,7 +50,7 @@
   {
     "group": "Asia",
     "geonameid": "1526384",
-    "box": [
+    "bbox": [
       76.575,
       43.057,
       77.223,
@@ -62,7 +62,7 @@
   {
     "group": "Asia",
     "geonameid": "323786",
-    "box": [
+    "bbox": [
       32.105,
       39.439,
       33.509,
@@ -74,7 +74,7 @@
   {
     "group": "Asia",
     "geonameid": "1609350",
-    "box": [
+    "bbox": [
       99.569,
       12.661,
       101.337,
@@ -86,7 +86,7 @@
   {
     "group": "Asia",
     "geonameid": "1816670",
-    "box": [
+    "bbox": [
       115.686,
       39.414,
       117.119,
@@ -98,7 +98,7 @@
   {
     "group": "Asia",
     "geonameid": "1277333",
-    "box": [
+    "bbox": [
       77.35,
       12.75,
       77.85,
@@ -110,7 +110,7 @@
   {
     "group": "Asia",
     "geonameid": "1264527",
-    "box": [
+    "bbox": [
       79.9,
       12.7,
       80.4,
@@ -122,7 +122,7 @@
   {
     "group": "Asia",
     "geonameid": "1819729",
-    "box": [
+    "bbox": [
       112.78,
       21.591,
       115.125,
@@ -134,7 +134,7 @@
   {
     "group": "Asia",
     "geonameid": "1701668",
-    "box": [
+    "bbox": [
       120.885,
       14.327,
       121.2,
@@ -146,7 +146,7 @@
   {
     "group": "Asia",
     "geonameid": "1275339",
-    "box": [
+    "bbox": [
       72.415,
       18.466,
       73.516,
@@ -158,7 +158,7 @@
   {
     "group": "Asia",
     "geonameid": "1261481",
-    "box": [
+    "bbox": [
       76.692,
       28.183,
       77.733,
@@ -170,7 +170,7 @@
   {
     "group": "Asia",
     "geonameid": "1853909",
-    "box": [
+    "bbox": [
       135.057,
       34.355,
       135.892,
@@ -182,7 +182,7 @@
   {
     "group": "Asia",
     "geonameid": "1835848",
-    "box": [
+    "bbox": [
       126.064,
       37.019,
       127.525,
@@ -194,7 +194,7 @@
   {
     "group": "Asia",
     "geonameid": "1796236",
-    "box": [
+    "bbox": [
       118.887,
       29.477,
       123.787,
@@ -206,7 +206,7 @@
   {
     "group": "Asia",
     "geonameid": "1880252",
-    "box": [
+    "bbox": [
       103.062,
       0.807,
       104.545,
@@ -218,7 +218,7 @@
   {
     "group": "Asia",
     "geonameid": "1668341",
-    "box": [
+    "bbox": [
       120.995,
       24.779,
       122.025,
@@ -230,7 +230,7 @@
   {
     "group": "Asia",
     "geonameid": "112931",
-    "box": [
+    "bbox": [
       50.87,
       35.383,
       51.648,
@@ -242,7 +242,7 @@
   {
     "group": "Asia",
     "geonameid": "1850147",
-    "box": [
+    "bbox": [
       138.779,
       34.867,
       141.152,
@@ -254,7 +254,7 @@
   {
     "group": "Europe",
     "geonameid": "2759794",
-    "box": [
+    "bbox": [
       4.465,
       52.163,
       5.347,
@@ -266,7 +266,7 @@
   {
     "group": "Europe",
     "geonameid": "2759794",
-    "box": [
+    "bbox": [
       22.949,
       37.514,
       24.421,
@@ -278,7 +278,7 @@
   {
     "group": "Europe",
     "geonameid": "3128760",
-    "box": [
+    "bbox": [
       1.734,
       41.075,
       2.496,
@@ -290,7 +290,7 @@
   {
     "group": "Europe",
     "geonameid": "2950159",
-    "box": [
+    "bbox": [
       12.26,
       51.849,
       14.699,
@@ -302,7 +302,7 @@
   {
     "group": "Europe",
     "geonameid": "2655603",
-    "box": [
+    "bbox": [
       -2.536,
       52.214,
       -1.267,
@@ -314,7 +314,7 @@
   {
     "group": "Europe",
     "geonameid": "3031582",
-    "box": [
+    "bbox": [
       -0.9,
       44.569,
       -0.162,
@@ -326,7 +326,7 @@
   {
     "group": "Europe",
     "geonameid": "3078610",
-    "box": [
+    "bbox": [
       16.268,
       48.951,
       16.94,
@@ -338,7 +338,7 @@
   {
     "group": "Europe",
     "geonameid": "2800866",
-    "box": [
+    "bbox": [
       3.981,
       50.645,
       4.761,
@@ -350,7 +350,7 @@
   {
     "group": "Europe",
     "geonameid": "3054643",
-    "box": [
+    "bbox": [
       18.347,
       47.025,
       19.78,
@@ -362,7 +362,7 @@
   {
     "group": "Europe",
     "geonameid": "2618425",
-    "box": [
+    "bbox": [
       11.894,
       55.491,
       13.147,
@@ -374,7 +374,7 @@
   {
     "group": "Europe",
     "geonameid": "2650225",
-    "box": [
+    "bbox": [
       -3.585,
       55.783,
       -2.835,
@@ -386,7 +386,7 @@
   {
     "group": "Europe",
     "geonameid": "3176959",
-    "box": [
+    "bbox": [
       10.982,
       43.601,
       11.504,
@@ -398,7 +398,7 @@
   {
     "group": "Europe",
     "geonameid": "2925533",
-    "box": [
+    "bbox": [
       7.811,
       49.632,
       9.442,
@@ -410,7 +410,7 @@
   {
     "group": "Europe",
     "geonameid": "3099434",
-    "box": [
+    "bbox": [
       18.174,
       54.007,
       19.113,
@@ -422,7 +422,7 @@
   {
     "group": "Europe",
     "geonameid": "2648579",
-    "box": [
+    "bbox": [
       -4.613,
       55.668,
       -3.935,
@@ -434,7 +434,7 @@
   {
     "group": "Europe",
     "geonameid": "2911298",
-    "box": [
+    "bbox": [
       9.376,
       53.159,
       10.678,
@@ -446,7 +446,7 @@
   {
     "group": "Europe",
     "geonameid": "745044",
-    "box": [
+    "bbox": [
       28.313,
       40.738,
       29.678,
@@ -458,7 +458,7 @@
   {
     "group": "Europe",
     "geonameid": "2892794",
-    "box": [
+    "bbox": [
       7.893,
       48.73,
       8.816,
@@ -470,7 +470,7 @@
   {
     "group": "Europe",
     "geonameid": "3094802",
-    "box": [
+    "bbox": [
       19.594,
       49.85,
       20.275,
@@ -482,7 +482,7 @@
   {
     "group": "Europe",
     "geonameid": "2644688",
-    "box": [
+    "bbox": [
       -1.717,
       53.697,
       -1.33,
@@ -494,7 +494,7 @@
   {
     "group": "Europe",
     "geonameid": "2998324",
-    "box": [
+    "bbox": [
       2.823,
       50.469,
       3.389,
@@ -506,7 +506,7 @@
   {
     "group": "Europe",
     "geonameid": "2267057",
-    "box": [
+    "bbox": [
       -9.634,
       38.358,
       -8.458,
@@ -518,7 +518,7 @@
   {
     "group": "Europe",
     "geonameid": "2996944",
-    "box": [
+    "bbox": [
       4.136,
       45.305,
       5.517,
@@ -530,7 +530,7 @@
   {
     "group": "Europe",
     "geonameid": "2643743",
-    "box": [
+    "bbox": [
       -1.115,
       50.941,
       0.895,
@@ -542,7 +542,7 @@
   {
     "group": "Europe",
     "geonameid": "3117735",
-    "box": [
+    "bbox": [
       -4.293,
       39.889,
       -3.057,
@@ -554,7 +554,7 @@
   {
     "group": "Europe",
     "geonameid": "2643123",
-    "box": [
+    "bbox": [
       -2.588,
       53.237,
       -1.877,
@@ -566,7 +566,7 @@
   {
     "group": "Europe",
     "geonameid": "2995469",
-    "box": [
+    "bbox": [
       4.905,
       43.038,
       5.776,
@@ -578,7 +578,7 @@
   {
     "group": "Europe",
     "geonameid": "2993458",
-    "box": [
+    "bbox": [
       7.349,
       43.71,
       7.491,
@@ -590,7 +590,7 @@
   {
     "group": "Europe",
     "geonameid": "2992166",
-    "box": [
+    "bbox": [
       4.488,
       43.241,
       3.381,
@@ -602,7 +602,7 @@
   {
     "group": "Europe",
     "geonameid": "524901",
-    "box": [
+    "bbox": [
       36.87,
       55.285,
       38.43,
@@ -614,7 +614,7 @@
   {
     "group": "Europe",
     "geonameid": "2867714",
-    "box": [
+    "bbox": [
       10.799,
       47.717,
       12.178,
@@ -626,7 +626,7 @@
   {
     "group": "Europe",
     "geonameid": "2988507",
-    "box": [
+    "bbox": [
       1.851,
       48.531,
       2.911,
@@ -638,7 +638,7 @@
   {
     "group": "Europe",
     "geonameid": "3067696",
-    "box": [
+    "bbox": [
       13.842,
       49.763,
       15.012,
@@ -650,7 +650,7 @@
   {
     "group": "Europe",
     "geonameid": "3169070",
-    "box": [
+    "bbox": [
       12.109,
       41.578,
       12.845,
@@ -662,7 +662,7 @@
   {
     "group": "Europe",
     "geonameid": "2747891",
-    "box": [
+    "bbox": [
       3.911,
       51.737,
       4.784,
@@ -674,7 +674,7 @@
   {
     "group": "Europe",
     "geonameid": "727011",
-    "box": [
+    "bbox": [
       22.87,
       42.38,
       23.83,
@@ -686,7 +686,7 @@
   {
     "group": "Europe",
     "geonameid": "2673730",
-    "box": [
+    "bbox": [
       17.061,
       58.85,
       19.055,
@@ -698,7 +698,7 @@
   {
     "group": "Europe",
     "geonameid": "498817",
-    "box": [
+    "bbox": [
       29.168,
       59.556,
       31.173,
@@ -710,7 +710,7 @@
   {
     "group": "Europe",
     "geonameid": "2972315",
-    "box": [
+    "bbox": [
       1.062,
       43.327,
       1.779,
@@ -722,7 +722,7 @@
   {
     "group": "Europe",
     "geonameid": "3164603",
-    "box": [
+    "bbox": [
       11.629,
       45.123,
       12.735,
@@ -734,7 +734,7 @@
   {
     "group": "Europe",
     "geonameid": "756135",
-    "box": [
+    "bbox": [
       20.341,
       51.845,
       21.692,
@@ -746,7 +746,7 @@
   {
     "group": "Europe",
     "geonameid": "3081368",
-    "box": [
+    "bbox": [
       16.652,
       50.877,
       17.363,
@@ -758,7 +758,7 @@
   {
     "group": "Middle East",
     "geonameid": "98182",
-    "box": [
+    "bbox": [
       43.786,
       32.9671,
       44.862,
@@ -770,7 +770,7 @@
   {
     "group": "Middle East",
     "geonameid": "170654",
-    "box": [
+    "bbox": [
       35.841,
       33.112,
       36.73,
@@ -782,7 +782,7 @@
   {
     "group": "Middle East",
     "geonameid": "292223;292968",
-    "box": [
+    "bbox": [
       53.58,
       23.735,
       56.887,
@@ -794,7 +794,7 @@
   {
     "group": "Middle East",
     "geonameid": "1138958",
-    "box": [
+    "bbox": [
       68.48,
       34.081,
       69.86,
@@ -806,7 +806,7 @@
   {
     "group": "Middle East",
     "geonameid": "108410",
-    "box": [
+    "bbox": [
       46.227,
       24.292,
       47.202,
@@ -818,7 +818,7 @@
   {
     "group": "North America",
     "geonameid": "4180439",
-    "box": [
+    "bbox": [
       -84.857,
       33.414,
       -83.89,
@@ -830,7 +830,7 @@
   {
     "group": "North America",
     "geonameid": "4671654",
-    "box": [
+    "bbox": [
       -98.212,
       29.931,
       -97.234,
@@ -842,7 +842,7 @@
   {
     "group": "North America",
     "geonameid": "4930956",
-    "box": [
+    "bbox": [
       -71.861,
       41.951,
       -70.285,
@@ -854,7 +854,7 @@
   {
     "group": "North America",
     "geonameid": "4460243",
-    "box": [
+    "bbox": [
       -81.307,
       34.919,
       -80.396,
@@ -866,7 +866,7 @@
   {
     "group": "North America",
     "geonameid": "4887398",
-    "box": [
+    "bbox": [
       -88.505,
       41.339,
       -87.066,
@@ -878,7 +878,7 @@
   {
     "group": "North America",
     "geonameid": "4508722",
-    "box": [
+    "bbox": [
       -84.843,
       38.875,
       -84.121,
@@ -890,7 +890,7 @@
   {
     "group": "North America",
     "geonameid": "5150529",
-    "box": [
+    "bbox": [
       -82.485,
       40.73,
       -80.798,
@@ -902,7 +902,7 @@
   {
     "group": "North America",
     "geonameid": "4509177;5151891",
-    "box": [
+    "bbox": [
       -83.482,
       39.542,
       -82.479,
@@ -914,7 +914,7 @@
   {
     "group": "North America",
     "geonameid": "4684888",
-    "box": [
+    "bbox": [
       -97.789,
       32.166,
       -96.113,
@@ -926,7 +926,7 @@
   {
     "group": "North America",
     "geonameid": "5419384",
-    "box": [
+    "bbox": [
       -105.746,
       39.323,
       -104.334,
@@ -938,7 +938,7 @@
   {
     "group": "North America",
     "geonameid": "4990729",
-    "box": [
+    "bbox": [
       -83.875,
       41.836,
       -82.375,
@@ -950,7 +950,7 @@
   {
     "group": "North America",
     "geonameid": "4257227",
-    "box": [
+    "bbox": [
       -87.747,
       37.759,
       -87.237,
@@ -962,7 +962,7 @@
   {
     "group": "North America",
     "geonameid": "5856195",
-    "box": [
+    "bbox": [
       -158.35,
       21.192,
       -157.592,
@@ -974,7 +974,7 @@
   {
     "group": "North America",
     "geonameid": "4699066",
-    "box": [
+    "bbox": [
       -96.064,
       28.856,
       -94.378,
@@ -986,7 +986,7 @@
   {
     "group": "North America",
     "geonameid": "5565500",
-    "box": [
+    "bbox": [
       -124.744,
       39.988,
       -122.802,
@@ -998,7 +998,7 @@
   {
     "group": "North America",
     "geonameid": "4259418",
-    "box": [
+    "bbox": [
       -86.485,
       39.454,
       -85.746,
@@ -1010,7 +1010,7 @@
   {
     "group": "North America",
     "geonameid": "5989045",
-    "box": [
+    "bbox": [
       -121.437,
       50.011,
       -119.514,
@@ -1022,7 +1022,7 @@
   {
     "group": "North America",
     "geonameid": "5506956",
-    "box": [
+    "bbox": [
       -115.581,
       35.757,
       -114.211,
@@ -1034,7 +1034,7 @@
   {
     "group": "North America",
     "geonameid": "4393217;4274277;4280539",
-    "box": [
+    "bbox": [
       -95.946,
       38.599,
       -94.048,
@@ -1046,7 +1046,7 @@
   {
     "group": "North America",
     "geonameid": "5368361",
-    "box": [
+    "bbox": [
       -119.437,
       33.298,
       -116.724,
@@ -1058,7 +1058,7 @@
   {
     "group": "North America",
     "geonameid": "4207400",
-    "box": [
+    "bbox": [
       -83.907,
       32.66,
       -83.482,
@@ -1070,7 +1070,7 @@
   {
     "group": "North America",
     "geonameid": "5261457",
-    "box": [
+    "bbox": [
       -89.854,
       42.801,
       -88.992,
@@ -1082,7 +1082,7 @@
   {
     "group": "North America",
     "geonameid": "3530597",
-    "box": [
+    "bbox": [
       -99.597,
       18.992,
       -98.606,
@@ -1094,7 +1094,7 @@
   {
     "group": "North America",
     "geonameid": "4164138",
-    "box": [
+    "bbox": [
       -80.683,
       25.291,
       -79.774,
@@ -1106,7 +1106,7 @@
   {
     "group": "North America",
     "geonameid": "5263045",
-    "box": [
+    "bbox": [
       -88.511,
       42.656,
       -87.522,
@@ -1118,7 +1118,7 @@
   {
     "group": "North America",
     "geonameid": "5037649;5045360",
-    "box": [
+    "bbox": [
       -94.064,
       44.496,
       -92.543,
@@ -1130,7 +1130,7 @@
   {
     "group": "North America",
     "geonameid": "4076598",
-    "box": [
+    "bbox": [
       -88.363,
       30.496,
       -87.832,
@@ -1142,7 +1142,7 @@
   {
     "group": "North America",
     "geonameid": "6077243",
-    "box": [
+    "bbox": [
       -74.734,
       44.968,
       -72.723,
@@ -1154,7 +1154,7 @@
   {
     "group": "North America",
     "geonameid": "4335045",
-    "box": [
+    "bbox": [
       -90.653,
       28.887,
       -89.11,
@@ -1166,7 +1166,7 @@
   {
     "group": "North America",
     "geonameid": "5128581",
-    "box": [
+    "bbox": [
       -74.501,
       40.345,
       -73.226,
@@ -1178,7 +1178,7 @@
   {
     "group": "North America",
     "geonameid": "4560349",
-    "box": [
+    "bbox": [
       -75.572,
       39.641,
       -74.641,
@@ -1190,7 +1190,7 @@
   {
     "group": "North America",
     "geonameid": "5308655",
-    "box": [
+    "bbox": [
       -112.821,
       32.796,
       -111.211,
@@ -1202,7 +1202,7 @@
   {
     "group": "North America",
     "geonameid": "5206379",
-    "box": [
+    "bbox": [
       -80.711,
       40.023,
       -79.249,
@@ -1214,7 +1214,7 @@
   {
     "group": "North America",
     "geonameid": "5746545",
-    "box": [
+    "bbox": [
       -123.211,
       45.096,
       -122.113,
@@ -1226,7 +1226,7 @@
   {
     "group": "North America",
     "geonameid": "5511077",
-    "box": [
+    "bbox": [
       -120.094,
       39.309,
       -119.506,
@@ -1238,7 +1238,7 @@
   {
     "group": "North America",
     "geonameid": "4407066",
-    "box": [
+    "bbox": [
       -91.01,
       38.069,
       -89.533,
@@ -1250,7 +1250,7 @@
   {
     "group": "North America",
     "geonameid": "5389489",
-    "box": [
+    "bbox": [
       -121.821,
       38.395,
       -120.995,
@@ -1262,7 +1262,7 @@
   {
     "group": "North America",
     "geonameid": "5391811;3981609",
-    "box": [
+    "bbox": [
       -117.376,
       32.312,
       -116.588,
@@ -1274,7 +1274,7 @@
   {
     "group": "North America",
     "geonameid": "5391959",
-    "box": [
+    "bbox": [
       -122.737,
       37.449,
       -122.011,
@@ -1286,7 +1286,7 @@
   {
     "group": "North America",
     "geonameid": "",
-    "box": [
+    "bbox": [
       -123.64,
       36.791,
       -121.025,
@@ -1298,7 +1298,7 @@
   {
     "group": "North America",
     "geonameid": "5392952",
-    "box": [
+    "bbox": [
       -120.712,
       33.872,
       -119.08,
@@ -1310,7 +1310,7 @@
   {
     "group": "North America",
     "geonameid": "5809844",
-    "box": [
+    "bbox": [
       -122.86,
       47.38,
       -121.868,
@@ -1322,7 +1322,7 @@
   {
     "group": "North America",
     "geonameid": "5213681",
-    "box": [
+    "bbox": [
       -78.28,
       40.572,
       -77.302,
@@ -1334,7 +1334,7 @@
   {
     "group": "North America",
     "geonameid": "4174757",
-    "box": [
+    "bbox": [
       -82.935,
       27.279,
       -82.012,
@@ -1346,7 +1346,7 @@
   {
     "group": "North America",
     "geonameid": "7164249",
-    "box": [
+    "bbox": [
       -87.508,
       39.367,
       -87.28,
@@ -1358,7 +1358,7 @@
   {
     "group": "North America",
     "geonameid": "6167865",
-    "box": [
+    "bbox": [
       -80.161,
       43.201,
       -78.717,
@@ -1370,7 +1370,7 @@
   {
     "group": "North America",
     "geonameid": "6173331",
-    "box": [
+    "bbox": [
       -123.513,
       48.669,
       -121.777,
@@ -1382,7 +1382,7 @@
   {
     "group": "North America",
     "geonameid": "6174041",
-    "box": [
+    "bbox": [
       -124.063,
       48.054,
       -122.568,
@@ -1394,7 +1394,7 @@
   {
     "group": "North America",
     "geonameid": "4140963;4347778",
-    "box": [
+    "bbox": [
       -77.599,
       38.539,
       -76.058,
@@ -1406,7 +1406,7 @@
   {
     "group": "Oceania",
     "geonameid": "2193733",
-    "box": [
+    "bbox": [
       174.223,
       -37.348,
       175.314,
@@ -1418,7 +1418,7 @@
   {
     "group": "Oceania",
     "geonameid": "1642911",
-    "box": [
+    "bbox": [
       106.435,
       -6.615,
       107.16,
@@ -1430,7 +1430,7 @@
   {
     "group": "Oceania",
     "geonameid": "2158177",
-    "box": [
+    "bbox": [
       144.266,
       -38.552,
       145.81,
@@ -1442,7 +1442,7 @@
   {
     "group": "Oceania",
     "geonameid": "2147714",
-    "box": [
+    "bbox": [
       150.628,
       -34.189,
       151.647,
@@ -1454,7 +1454,7 @@
   {
     "group": "South America",
     "geonameid": "3688689",
-    "box": [
+    "bbox": [
       -74.421,
       4.291,
       -73.767,
@@ -1466,7 +1466,7 @@
   {
     "group": "South America",
     "geonameid": "3469058",
-    "box": [
+    "bbox": [
       -48.501,
       -16.317,
       -47.378,
@@ -1478,7 +1478,7 @@
   {
     "group": "South America",
     "geonameid": "3435910",
-    "box": [
+    "bbox": [
       -58.899,
       -34.966,
       -57.992,
@@ -1490,7 +1490,7 @@
   {
     "group": "South America",
     "geonameid": "3687238",
-    "box": [
+    "bbox": [
       -75.627,
       10.251,
       -75.337,
@@ -1502,7 +1502,7 @@
   {
     "group": "South America",
     "geonameid": "3464975",
-    "box": [
+    "bbox": [
       -49.703,
       -25.799,
       -48.799,
@@ -1514,7 +1514,7 @@
   {
     "group": "South America",
     "geonameid": "3936456",
-    "box": [
+    "bbox": [
       -77.294,
       -12.358,
       -76.701,
@@ -1526,7 +1526,7 @@
   {
     "group": "South America",
     "geonameid": "3652462",
-    "box": [
+    "bbox": [
       -78.853,
       -0.55,
       -78.1,
@@ -1538,7 +1538,7 @@
   {
     "group": "South America",
     "geonameid": "3451190",
-    "box": [
+    "bbox": [
       -43.553,
       -23.231,
       -42.85,
@@ -1550,7 +1550,7 @@
   {
     "group": "South America",
     "geonameid": "3448439",
-    "box": [
+    "bbox": [
       -47.357,
       -24.317,
       -45.863,
@@ -1562,7 +1562,7 @@
   {
     "group": "South America",
     "geonameid": "3871336",
-    "box": [
+    "bbox": [
       -71.043,
       -33.824,
       -70.353,
