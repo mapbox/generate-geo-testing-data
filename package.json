@@ -22,6 +22,7 @@
     "url": "https://github.com/mapbox/generate-geo-testing-data/issues"
   },
   "dependencies": {
-    "log-reader": "0.0.0"
+    "log-reader": "0.0.0",
+    "sphericalmercator": "~1.0.2"
   }
 }

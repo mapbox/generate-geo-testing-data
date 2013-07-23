@@ -1,35 +1,6 @@
-var sm = new require('sphericalmercator'),
+var sm = new (require('sphericalmercator'))(),
     fs = require('fs'),
     LogReader = require('log-reader');
-
-function parseLine(line, i) {
-    var cols = line.split('\t'),
-        bbox = [
-            parseFloat(cols[3]),
-            parseFloat(cols[4]),
-            parseFloat(cols[5]),
-            parseFloat(cols[2])
-        ];
-    var result = {
-        group: cols[0],
-        geonameid: parseFloat(cols[1]),
-        slug: cols[6],
-        name: cols[7],
-        bbox: bbox,
-        zooms: []
-    };
-    for (var j = 0; j <= zoomLevels; j++) {
-        var box = sm.xyz(bbox, startZoom + j, false, 'WGS84');
-        // box.box.maxX - box.minX;
-        box.height = box.maxY - box.minY;
-        result.zooms.push(box);
-    }
-    return result;
-}
-
-function lineNotEmpty(line, i) {
-    return line.trim().length && i > 0;
-}
 
 module.exports = function(options, formatter) {
     if (options.mode === 'replay') {
@@ -43,17 +14,25 @@ module.exports = function(options, formatter) {
         };
     }
 
-    options.data = options.data || './data/cities.txt';
+    options.data = options.data || './data/cities.json';
 
     // Returns a random tile coordinate from the list of cities;
     var startZoom = options.minzoom,
         endZoom = options.maxzoom,
         zoomLevels = endZoom - startZoom;
 
-    var cities = fs.readFileSync(options.data, 'utf8')
-        .split('\n')
-        .filter(lineNotEmpty)
-        .map(parseLine);
+    var cities = require(options.data);
+
+    for (var i = 0; i < cities.length; i++) {
+        var result = cities[i],
+            bbox = cities[i].box;
+        result.zooms = [];
+        for (var j = 0; j <= zoomLevels; j++) {
+            var box = sm.xyz(bbox, startZoom + j, false, 'WGS84');
+            box.height = box.maxY - box.minY;
+            result.zooms.push(box);
+        }
+    }
 
     if (options.mode === 'tiles') {
         return function(cb) {
