@@ -1,3 +1,5 @@
+[![Build Status](https://secure.travis-ci.org/mapbox/generate-geo-testing-data.png?branch=master)](http://travis-ci.org/mapbox/generate-geo-testing-data)
+
 # generate-geo-testing-data
 
 ## example

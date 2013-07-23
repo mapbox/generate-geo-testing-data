@@ -17,22 +17,23 @@ module.exports = function(options, formatter) {
     options.data = options.data || './data/cities.json';
 
     // Returns a random tile coordinate from the list of cities;
-    var startZoom = options.minzoom,
-        endZoom = options.maxzoom,
+    var startZoom = options.minzoom || 0,
+        endZoom = options.maxzoom || 10,
         zoomLevels = endZoom - startZoom;
 
     var cities = require(options.data);
 
     for (var i = 0; i < cities.length; i++) {
-        var result = cities[i],
-            bbox = cities[i].box;
+        var result = cities[i];
         result.zooms = [];
         for (var j = 0; j <= zoomLevels; j++) {
-            var box = sm.xyz(bbox, startZoom + j, false, 'WGS84');
+            var box = sm.xyz(cities[i].bbox, startZoom + j, false, 'WGS84');
             box.height = box.maxY - box.minY;
             result.zooms.push(box);
         }
     }
+
+    if (!formatter) throw new Error('formatter required');
 
     if (options.mode === 'tiles') {
         return function(cb) {
