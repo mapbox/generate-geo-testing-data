@@ -2,6 +2,21 @@ var expect = require('expect.js'),
     generate = require('../');
 
 describe('generation', function() {
+    describe('replay', function() {
+        it('replay log', function(done) {
+            var g = generate({
+                mode: 'replay',
+                log: __dirname + '/../fixtures/example.log'
+            }, function() { return arguments; });
+
+            g(function(_) {
+                expect(_).to.have.length(1);
+                expect(_[0]).to.be.a('string');
+                done();
+            });
+        });
+    });
+
     describe('latlon', function() {
         it('generates numbers', function(done) {
             var g = generate({
