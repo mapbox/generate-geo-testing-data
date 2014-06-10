@@ -23,7 +23,8 @@
   },
   "dependencies": {
     "log-reader": "0.0.0",
-    "sphericalmercator": "~1.0.2"
+    "sphericalmercator": "~1.0.2",
+    "cloudfront-log-reader": "0.0.1"
   },
   "devDependencies": {
     "expect.js": "~0.2.0",

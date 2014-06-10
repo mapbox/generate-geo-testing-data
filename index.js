@@ -1,17 +1,30 @@
 var sm = new (require('sphericalmercator'))(),
     fs = require('fs'),
     LogReader = require('log-reader');
+    CFLogReader = require('cloudfront-log-reader');
 
 module.exports = function(options, formatter) {
     if (options.mode === 'replay') {
-        var reader = new LogReader(options.log).read();
-
-        return function(cb) {
-            reader.read(function(err, path) {
-                if (err) throw err;
-                return cb(formatter(path));
-            });
-        };
+        var parts = options.log.split('/');
+        if (parts[0] === 's3:') {
+            var bucket = parts[2];
+            var prefix = '/' + parts.slice(3).join('/');
+            var cfreader = new CFLogReader({bucket: bucket, prefix: prefix});
+            return function(cb) {
+                cfreader.read(function(err, path) {
+                    if (err) throw err;
+                    return cb(formatter(path));
+                });
+            };
+        } else {
+            var reader = new LogReader(options.log).read();
+            return function(cb) {
+                reader.read(function(err, path) {
+                    if (err) throw err;
+                    return cb(formatter(path));
+                });
+            };
+        }
     }
 
     options.data = options.data || './data/cities.json';
