@@ -8,7 +8,7 @@ module.exports = function(options, formatter) {
         var parts = options.log.split('/');
         if (parts[0] === 's3:') {
             var bucket = parts[2];
-            var prefix = '/' + parts.slice(3).join('/');
+            var prefix = parts.slice(3).join('/');
             var cfreader = new CFLogReader({bucket: bucket, prefix: prefix});
             return function(cb) {
                 cfreader.read(function(err, path) {
