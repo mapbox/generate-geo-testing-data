@@ -1,6 +1,6 @@
 {
   "name": "generate-geo-testing-data",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "use a geonames extract to generate testing geocodes, tiles, and bounding boxes",
   "main": "index.js",
   "scripts": {
@@ -24,7 +24,7 @@
   "dependencies": {
     "log-reader": "0.0.0",
     "sphericalmercator": "~1.0.2",
-    "cloudfront-log-reader": "0.0.2"
+    "cloudfront-log-reader": "0.0.3"
   },
   "devDependencies": {
     "expect.js": "~0.2.0",
