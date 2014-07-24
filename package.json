@@ -24,7 +24,7 @@
   "dependencies": {
     "log-reader": "0.0.0",
     "sphericalmercator": "~1.0.2",
-    "cloudfront-log-reader": "0.0.3"
+    "cloudfront-log-reader": "https://github.com/mapbox/cloudfront-log-reader/archive/pattern.tar.gz"
   },
   "devDependencies": {
     "expect.js": "~0.2.0",
