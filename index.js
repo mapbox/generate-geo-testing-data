@@ -64,7 +64,7 @@ module.exports = function(options, formatter) {
         };
     } else if (options.mode === 'batch') {
         return function(cb) {
-            var length = Math.round(Math.random() * 50);
+            var length = Math.round(Math.random() * options.maxBatch || 50);
             var batch = [];
             for (var i = 0; i < length; i++) {
                 var bbox = cities[Math.random() * cities.length | 0].bbox;
