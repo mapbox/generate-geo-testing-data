@@ -77,6 +77,7 @@ module.exports = function(options, formatter) {
             var batch = [];
             for (var i = 0; i < length; i++) {
                 var bbox = options.bbox || cities[Math.random() * cities.length | 0].bbox;
+                console.log(bbox);
                 var lon = bbox[0] + (bbox[2] - bbox[0]) * Math.random();
                 var lat = bbox[1] + (bbox[3] - bbox[1]) * Math.random();
                 batch.push([lon, lat].join(','));
@@ -85,7 +86,11 @@ module.exports = function(options, formatter) {
         };
     } else if (options.mode === 'polyline') {
         return function(cb) {
-            var points = randomPoints.createRandomLine(options);
+            var bbox = options.bbox || cities[Math.random() * cities.length | 0].bbox;
+            var points = randomPoints.createRandomLine({
+                bbox: bbox,
+                maxPoints: options.maxBatch
+            });
             cb(formatter(points));
         };
     } else if (options.mode === 'latlon') {
