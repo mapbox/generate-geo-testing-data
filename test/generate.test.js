@@ -76,4 +76,19 @@ describe('generation', function() {
             });
         });
     });
+
+    describe('polyline', function() {
+        it('generates encoded polyline', function(done) {
+            var g = generate({
+                bbox: '-120.0,37.0,-119.0,38.0',
+                maxPoints: 100,
+                mode: 'polyline'
+            }, function() { return arguments; });
+
+            g(function(_) {
+                expect(_[0]).to.be.a('string');
+                done();
+            });
+        });
+    });
 });
