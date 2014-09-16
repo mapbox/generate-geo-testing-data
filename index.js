@@ -1,7 +1,8 @@
 var sm = new (require('sphericalmercator'))(),
     fs = require('fs'),
     LogReader = require('log-reader');
-    CFLogReader = require('cloudfront-log-reader');
+    CFLogReader = require('cloudfront-log-reader'),
+    randomPoints = require('./scripts/random-line');
 
 module.exports = function(options, formatter) {
     if (options.mode === 'replay') {
@@ -81,6 +82,11 @@ module.exports = function(options, formatter) {
                 batch.push([lon, lat].join(','));
             }
             cb(formatter(batch.join(';')));
+        };
+    } else if (options.mode === 'polyline') {
+        return function(cb) {
+            var points = randomPoints.createRandomLine(options);
+            cb(formatter(points));
         };
     } else if (options.mode === 'latlon') {
         return function(cb) {
