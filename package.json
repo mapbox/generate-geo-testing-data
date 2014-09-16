@@ -1,6 +1,6 @@
 {
   "name": "generate-geo-testing-data",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "description": "use a geonames extract to generate testing geocodes, tiles, and bounding boxes",
   "main": "index.js",
   "scripts": {
