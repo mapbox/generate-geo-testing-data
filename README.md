@@ -27,6 +27,8 @@ valid options:
 * `mode` can be tiles, batch, latlon, place, jsonp, or replay
 * `minzoom`
 * `maxzoom`
+* `bbox` (for `batch` and `polyline`)
+* `maxBatch` (for `bench` and `polyline`) - max number of points to generate
 
 Mode Options:
 
@@ -34,6 +36,8 @@ Mode Options:
 * latlon does width, height, lat, lon, zoom
 * jsonp generates numbers
 * place generates place names
+* batch generates a given number of random points within a bounding box
+* polyline generated a random encoded polyline within a bounding box
 
 formatter takes a function that takes the data, like
 xyz coordinates or placenames, and turns them into output
