@@ -22,13 +22,16 @@ function createRandomLine(options) {
 
     var randDirection = Math.floor(Math.random() * 360);
     for (var i=0; i<randIterations; i++) {
-        if (points[points.length-1][0] + interval > extent.xMax || points[points.length-1][0] - interval < extent.xMin || points[points.length-1][1] + interval > extent.yMax || points[points.length-1][1] - interval < extent.yMin) {
+        if (points[points.length-1][0] + interval > extent.xMax ||
+            points[points.length-1][0] - interval < extent.xMin ||
+            points[points.length-1][1] + interval > extent.yMax ||
+            points[points.length-1][1] - interval < extent.yMin) {
             randDirection += 1.0 * Math.floor(Math.random() * 180);
         }
         var randAzimuth = (180 * (Math.random() + Math.random() + Math.random()) / 3 - 90) + randDirection;
         points.push([
-            Math.cos(randAzimuth*convert)*interval+points[points.length-1][0],
-            Math.sin(randAzimuth*convert)*interval+points[points.length-1][1]
+            Math.cos(randAzimuth * convert) * interval + points[points.length - 1][0],
+            Math.sin(randAzimuth*  convert) * interval + points[points.length - 1 ][1]
         ]);
     }
     return polyline.encode(points);
