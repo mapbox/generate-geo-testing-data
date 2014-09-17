@@ -18,7 +18,7 @@ function createRandomLine(options) {
     ];
 
     var randIterations = Math.ceil(Math.random() * options.maxPoints);
-    var interval = ((extent.xMax - extent.xMin) + (extent.yMax - extent.yMin)) / randIterations;
+    var interval = ((extent.xMax - extent.xMin) + (extent.yMax - extent.yMin)) / options.maxPoints;
 
     var randDirection = Math.floor(Math.random() * 360);
     for (var i=0; i<randIterations; i++) {
