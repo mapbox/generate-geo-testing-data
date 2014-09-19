@@ -25,7 +25,8 @@
     "log-reader": "0.0.0",
     "sphericalmercator": "~1.0.2",
     "cloudfront-log-reader": "0.1.1",
-    "polyline": "0.0.3"
+    "polyline": "0.0.3",
+    "sphericalmercator": "~1.0.2"
   },
   "devDependencies": {
     "expect.js": "~0.2.0",
