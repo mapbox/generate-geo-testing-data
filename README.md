@@ -29,6 +29,7 @@ valid options:
 * `maxzoom`
 * `bbox` (for `batch` and `polyline`)
 * `maxBatch` (for `bench` and `polyline`) - max number of points to generate
+* `z` (for `polyline`) - used to estimate tile size, which is used to generate point density
 
 Mode Options:
 
