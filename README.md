@@ -42,3 +42,4 @@ Mode Options:
 
 formatter takes a function that takes the data, like
 xyz coordinates or placenames, and turns them into output
+

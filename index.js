@@ -13,12 +13,13 @@ module.exports = function(options, formatter) {
             var cfreader = new CFLogReader({
               bucket: bucket,
               prefix: prefix,
-              pattern: options.pattern
+              pattern: options.pattern,
+              limitbbox: options.limitbbox
             });
             return function(cb) {
                 cfreader.read(function(err, path) {
                     if (err) throw err;
-                    return cb(formatter(path));
+                    if (path !== undefined) { return cb(formatter(path)); }
                 });
             };
         } else {
