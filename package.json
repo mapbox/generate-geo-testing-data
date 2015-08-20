@@ -24,7 +24,7 @@
   "dependencies": {
     "log-reader": "0.0.0",
     "sphericalmercator": "~1.0.2",
-    "cloudfront-log-reader": "0.2.1",
+    "cloudfront-log-reader": "mapbox/cloudfront-log-reader#context-bug",
     "polyline": "0.0.3",
     "sphericalmercator": "~1.0.2"
   },
