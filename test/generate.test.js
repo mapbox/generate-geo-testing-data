@@ -66,14 +66,20 @@ describe('generation', function() {
             var g = generate({
                 mode: 'tiles'
             }, function() { return arguments; });
-
-            g(function(_) {
-                expect(_).to.have.length(3);
-                expect(_[0]).to.be.a('number');
-                expect(_[1]).to.be.a('number');
-                expect(_[2]).to.be.a('number');
-                done();
-            });
+            
+            var tests = 20;
+            for (var i = 0; i < 20; ++i) {
+                g(function(_) {
+                    expect(_).to.have.length(3);
+                    expect(_[0]).to.be.a('number');
+                    expect(_[0]).to.be.within(0, Infinity);
+                    expect(_[1]).to.be.a('number');
+                    expect(_[1]).to.be.within(0, Math.pow(2,_[0]));
+                    expect(_[2]).to.be.a('number');
+                    expect(_[2]).to.be.within(0, Math.pow(2,_[0]));
+                });
+            }
+            done();
         });
     });
 

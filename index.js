@@ -67,8 +67,13 @@ module.exports = function(options, formatter) {
             var zoomIndex = Math.random() * city.zooms.length | 0;
             var zoom = city.zooms[zoomIndex];
             var z = zoomIndex + startZoom;
+            if (z < 0) z = 0;
             var x = zoom.minX + (zoom.width * 0.5 | 0) - (Math.random()*2|0) + (Math.random() * 2 | 0);
+            if (x < 0) x = 0;
+            if (x > Math.pow(2,z)) x = Math.pow(2,z);
             var y = zoom.minY + (zoom.height * 0.5 | 0) - (Math.random()*2|0) + (Math.random() * 2 | 0);
+            if (y < 0) y = 0;
+            if (y > Math.pow(2,z)) y = Math.pow(2,z);
             cb(formatter(z, x, y));
         };
     } else if (options.mode === 'batch') {
