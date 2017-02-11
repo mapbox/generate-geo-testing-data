@@ -1,34 +1,34 @@
 {
-  "name": "generate-geo-testing-data",
-  "version": "0.2.1",
-  "description": "use a geonames extract to generate testing geocodes, tiles, and bounding boxes",
-  "main": "index.js",
-  "scripts": {
-    "test": "mocha -R spec"
-  },
+  "license": "BSD-2-Clause", 
+  "name": "generate-geo-testing-data", 
   "repository": {
-    "type": "git",
-    "url": "git@github.com:mapbox/generate-geo-testing-data.git"
-  },
-  "keywords": [
-    "geo",
-    "testing",
-    "data",
-    "generate"
-  ],
-  "author": "Young Hahn",
-  "license": "BSD",
+    "url": "git@github.com:mapbox/generate-geo-testing-data.git", 
+    "type": "git"
+  }, 
+  "author": "Young Hahn", 
   "bugs": {
     "url": "https://github.com/mapbox/generate-geo-testing-data/issues"
-  },
+  }, 
+  "version": "0.2.1", 
   "dependencies": {
-    "log-reader": "0.0.0",
-    "sphericalmercator": "~1.0.2",
-    "cloudfront-log-reader": "0.4.0",
+    "log-reader": "0.0.0", 
+    "cloudfront-log-reader": "0.4.0", 
+    "sphericalmercator": "~1.0.2", 
     "polyline": "0.0.3"
-  },
+  }, 
+  "scripts": {
+    "test": "mocha -R spec"
+  }, 
+  "keywords": [
+    "geo", 
+    "testing", 
+    "data", 
+    "generate"
+  ], 
   "devDependencies": {
-    "expect.js": "~0.2.0",
-    "mocha": "~1.12.0"
-  }
+    "mocha": "~1.12.0", 
+    "expect.js": "~0.2.0"
+  }, 
+  "main": "index.js", 
+  "description": "use a geonames extract to generate testing geocodes, tiles, and bounding boxes"
 }
