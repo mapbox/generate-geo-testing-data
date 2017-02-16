@@ -80,8 +80,8 @@ module.exports = function(options, formatter) {
         return function(cb) {
             var length = Math.round(Math.random() * options.maxBatch || 50);
             var batch = [];
+            var bbox = options.bbox || cities[Math.random() * cities.length | 0].bbox;
             for (var i = 0; i < length; i++) {
-                var bbox = options.bbox || cities[Math.random() * cities.length | 0].bbox;
                 var lon = bbox[0] + (bbox[2] - bbox[0]) * Math.random();
                 var lat = bbox[1] + (bbox[3] - bbox[1]) * Math.random();
                 batch.push([lon, lat].join(','));

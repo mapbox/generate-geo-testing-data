@@ -97,4 +97,39 @@ describe('generation', function() {
             });
         });
     });
+
+    describe('batch', function() {
+        it('generates batch', function(done) {
+            var g = generate({
+                mode: 'batch'
+            }, function() { return arguments; });
+
+            g(function(_) {
+                expect(_).to.be.an('object');
+                expect(_[0]).to.be.a('string');
+
+                // Test that the extent of a single batch request
+                // does not exceed a 10x10 lat/lon bbox.
+                var parsed = _[0].split(';').map(function(point) {
+                    return point.split(',').map(parseFloat);
+                });
+                var minX = parsed.reduce(function(memo, p) {
+                    return Math.min(memo,p[0]);
+                }, Infinity);
+                var minY = parsed.reduce(function(memo, p) {
+                    return Math.min(memo,p[1]);
+                }, Infinity);
+                var maxX = parsed.reduce(function(memo, p) {
+                    return Math.max(memo,p[0]);
+                }, -Infinity);
+                var maxY = parsed.reduce(function(memo, p) {
+                    return Math.max(memo,p[1]);
+                }, -Infinity);
+                expect(maxX - minX).to.be.lessThan(10);
+                expect(maxY - minY).to.be.lessThan(10);
+
+                done();
+            });
+        });
+    });
 });
